@@ -22,7 +22,7 @@
 #pragma once
 
 // R25 = 500 KOhm, beta25 = 3800 K, 4.7 kOhm pull-up
-const temp_entry_t temptable_67[] PROGMEM = {
+const temp_entry_t temptable_562[] PROGMEM = {
   { OV(  22 ),  500 },
   { OV(  23 ),  490 },
   { OV(  25 ),  480 },
