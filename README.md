@@ -1,4 +1,4 @@
-# Dual Switching Hotend v2 (Non-Proforge)]
+# Dual Switching Hotend v2 (Non-Proforge)
 
 Two Hotends are mounted side by side at an angle, with a high torque servo motor to switch between them.
 
