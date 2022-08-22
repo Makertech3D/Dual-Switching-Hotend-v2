@@ -1,4 +1,4 @@
-# Dual Switching Hotend v2 (Non-Proforge)
+# Dual Switching Hotend v2.1
 
 Two Hotends are mounted side by side at an angle, with a high torque servo motor to switch between them.
 
@@ -9,7 +9,7 @@ The Switching Hotend is available [here](https://www.makertech3d.com/products/du
 
 ## Hardware Requirements
 
-- Electronics board capable of running two extruder motors.
+- Electronics board capable of running two extruders and hotends.
 
 - A metal platform for using the included probe.
 
@@ -18,6 +18,8 @@ The Switching Hotend is available [here](https://www.makertech3d.com/products/du
 ## Firmware Requirements
 
 - The latest Marlin firmware with "SWITCHING_NOZZLE" feature.
+- Klipper
+- RepRap Firmware (untested)
 
 Other firmwares with servo control may also be compatible, but are untested.
 
@@ -25,9 +27,8 @@ Other firmwares with servo control may also be compatible, but are untested.
 
 - Slicer with dual extrusion support
 
-- Slicer capable of x/y dual hotend offset.
+- Slicer capable of x/y dual hotend offset (optional as firmware can handle this too).
 
-We recommend CURA.
 
 ## What's included:
 
